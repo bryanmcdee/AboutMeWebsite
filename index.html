@@ -37,6 +37,12 @@
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#about">About</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#tough-mudder">Tough Mudder</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#bbqer">BBQer</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -44,7 +50,7 @@
 
 	<!-- Header -->
 	<header class="masthead">
-		<div class="container">
+		<div id="page-top" class="container">
 			<div class="intro-text">
 				<div class="row" style="padding-bottom: 50px;">
 					<div class="col-md-5 col-sm-12 offset-md-2 offset-sm-3 my-auto">
@@ -56,8 +62,12 @@
 						</div>
 					</div>
 				</div>
+				<div class="col-xs-12 text-center text-muted pt-5">
+					<a href="#about" class="js-scroll-trigger"
+						style="text-decoration: none; color: #6c757d!important;"><i
+							class="fas fa-angle-double-down"></i></a>
+				</div>
 			</div>
-		</div>
 		</div>
 	</header>
 
@@ -69,14 +79,18 @@
 					<img class="mx-auto rounded-circle my-auto" src="img/ProfilePics/profile-pic.jpg" alt="">
 				</div>
 			</div>
-			<div class="timeline-heading text-center pb-1">
+			<h3 class="timeline-heading text-center pb-1">
 				<strong>Hello! I'm Bryan McDonald</strong>
-			</div>
+			</h3>
 			<div class="timeline-body text-center">
 				<p class="text-muted">
-					I graduated from Georgia Institute of Technology with a degree in Industrial Engineering and worked as an industrial engineer for four years. At some point I wanted to create a website so I taught myself front-end development.
-					I fell in love with web development so much that I went back to school and over the course of two years I completed 42 Hours of Computer Science / Information Technology classes
-					from <a href="https://www.mga.edu/" target="_blank">Middle GA State University</a>. I accepted a software engineering job at Mercer Engineering Research Center in 2014 and
+					I graduated from Georgia Institute of Technology with a degree in Industrial Engineering and worked
+					as an industrial engineer for four years. At some point I wanted to create a website so I taught
+					myself front-end development.
+					I fell in love with web development so much that I went back to school and over the course of two
+					years I completed 42 Hours of Computer Science / Information Technology classes
+					from <a href="https://www.mga.edu/" target="_blank">Middle GA State University</a>. I accepted a
+					software engineering job at Mercer Engineering Research Center in 2014 and
 					have been a full stack .NET software engineer ever since.
 				</p>
 			</div>
@@ -84,7 +98,7 @@
 	</section>
 
 	<!-- Timeline -->
-	<section class="page-section" id="software-engineer">
+	<section id="software-engineer" class="page-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
@@ -99,16 +113,19 @@
 								<img class="rounded-circle img-fluid" src="img/Logos/LBAWare.png" alt="LBAWare">
 							</div>
 							<div class="timeline-panel">
-								<div class="timeline-heading">	
-									<h4>Software Engineer</h4>								
+								<div class="timeline-heading">
+									<h4>Software Engineer</h4>
 									<h5 class="subheading">LBA Ware</h5>
 									<h6>Oct 2018 - Present</h6>
 								</div>
 								<div class="timeline-body">
-									<p class="text-muted"><a href="https://go.lbaware.com/" target="_blank">LBA Ware</a> is a SaaS company that provides software for the banking industry. 
+									<p class="text-muted"><a href="https://go.lbaware.com/" target="_blank">LBA Ware</a>
+										is a SaaS company that provides software for the banking industry.
 										I work on their incentive compensation management platform. </br>
-										Most notably I helped re-architect a 2-tier web application into a clean architecture style, added dependency injection, and introduced moq, 
-										the mocking framework, into the unit tests. I also created an internal authorization provider service using .NET core 2.2.									</p>
+										Most notably I helped re-architect a 2-tier web application into a clean
+										architecture style, added dependency injection, and introduced moq,
+										the mocking framework, into the unit tests. I also created an internal
+										authorization provider service using .NET core 2.2. </p>
 								</div>
 							</div>
 						</li>
@@ -118,15 +135,21 @@
 							</div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h4>Software Engineer</h4>									
+									<h4>Software Engineer</h4>
 									<h5 class="subheading">U.S. Office of Personnel Management</h5>
 									<h6>May 2018 - Oct 2018</h6>
 								</div>
 								<div class="timeline-body">
-									<p class="text-muted"><a href="https://www.opm.gov/" target="_blank">OPM</a> serves as the chief human resources agency and personnel policy manager for the Federal Government. 
-										I worked on the <a href="https://www.usajobs.gov/" target="_blank">USAJobs.gov</a> website. This is the Federal Government’s official employment site that
-										hosts several thousand new job listing each month, has 1+ million visitors each month, and serves around 20 TB of traffic each month. </br>
-										I worked on converting the USAJobs.gov onboarding authentication service into one of OPM’s first microservices using .NET core 2.1.
+									<p class="text-muted"><a href="https://www.opm.gov/" target="_blank">OPM</a> serves
+										as the chief human resources agency and personnel policy manager for the Federal
+										Government.
+										I worked on the <a href="https://www.usajobs.gov/"
+											target="_blank">USAJobs.gov</a> website. This is the Federal Government’s
+										official employment site that
+										hosts several thousand new job listing each month, has 1+ million visitors each
+										month, and serves around 20 TB of traffic each month. </br>
+										I worked on converting the USAJobs.gov onboarding authentication service into
+										one of OPM’s first microservices using .NET core 2.1.
 									</p>
 								</div>
 							</div>
@@ -139,16 +162,138 @@
 								<div class="timeline-heading">
 									<h4>Software Engineer</h4>
 									<h5 class="subheading">Mercer Engineering Research Center (MERC)</h5>
-									<h6>Feb 2014 - May 2018</h6>									
+									<h6>Feb 2014 - May 2018</h6>
 								</div>
 								<div class="timeline-body">
-									<p class="text-muted"><a href="https://www.merc-mercer.org/" target="_blank">MERC</a> is a non-profit division of Mercer University. I primarily worked on their AFIRM-M (Aging Fleet Integrity and Reliability Management-Multi-Platform) website. 
-										AFIRM-M provides a web-based toolset and database for up-to-date information needed by the SPO (System Program Office) for fleet management. </br>
-										I was responsible for the full life cycle of all tasks assigned including user interface design, front-end development, and database design. </br>										
+									<p class="text-muted"><a href="https://www.merc-mercer.org/"
+											target="_blank">MERC</a> is a non-profit division of Mercer University. I
+										primarily worked on their AFIRM-M (Aging Fleet Integrity and Reliability
+										Management-Multi-Platform) website.
+										AFIRM-M provides a web-based toolset and database for up-to-date information
+										needed by the SPO (System Program Office) for fleet management. </br>
+										I was responsible for the full life cycle of all tasks assigned including user
+										interface design, front-end development, and database design. </br>
 									</p>
 								</div>
 							</div>
 						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Tough Mudder -->
+	<section id="tough-mudder" class="page-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h3 class="section-heading text-uppercase pb-5">Tough Mudder</h3>
+				</div>
+			</div>
+			<div class="card-deck text-center">
+				<div class="card">
+					<img src="img/ToughMudder/roguerunner2012.jpg" class="card-img-top" alt="Rogue Runner">
+					<div class="card-body">
+						<p class="card-text">Rogue Runner 2012</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ToughMudder/toughmudder2013.jpg" class="card-img-top" alt="Tough Mudder">
+					<div class="card-body">
+						<p class="card-text">Tough Mudder 2013</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ToughMudder/savagerace2013.jpg" class="card-img-top" alt="Savage Race">
+					<div class="card-body">
+						<p class="card-text">Savage Race 2013</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ToughMudder/toughmudder2014.jpg" class="card-img-top" alt="Tough Mudder">
+					<div class="card-body">
+						<p class="card-text">Tough Mudder 2014</p>
+					</div>
+				</div>
+			</div>
+			<div class="card-deck text-center pt-2">
+				<div class="card">
+					<img src="img/ToughMudder/maconmudrun.jpg" class="card-img-top" alt="Rogue Runner">
+					<div class="card-body">
+						<p class="card-text">Macon Mud Run 2014</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ToughMudder/toughmudder2015.jpg" class="card-img-top" alt="Tough Mudder">
+					<div class="card-body">
+						<p class="card-text">Tough Mudder 2015</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ToughMudder/zombierun.jpg" class="card-img-top" alt="Savage Race">
+					<div class="card-body">
+						<p class="card-text">Zombie Run 2015</p>
+					</div>
+				</div>
+				<div class="card">
+					<img src="img/ToughMudder/toughmudder2019.jpg" class="card-img-top" alt="Tough Mudder">
+					<div class="card-body">
+						<p class="card-text">Tough Mudder 2019</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- BBQer -->
+	<section id="bbqer" class="page-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h3 class="section-heading text-uppercase pb-5">BBQer</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="card-columns">
+						<div class="card p-0">
+							<img src="img/BBQ/smoker2.GIF" class="card-img-top" alt="BBQ Smoker">
+						</div>
+						<div class="card p-0">
+							<img src="img/BBQ/bbq7.jpg" class="card-img-top" alt="BBQ Smoker">
+						</div>
+						<div class="card p-0">
+							<img src="img/BBQ/bbq8.jpg" class="card-img-top" alt="BBQ Smoker">
+						</div>
+						<div class="card p-0">
+							<img src="img/BBQ/bbq10.jpg" class="card-img-top" alt="BBQ Smoker">
+						</div>
+						<div class="card p-0">
+							<img src="img/BBQ/bbq12.jpg" class="card-img-top" alt="BBQ Smoker">
+						</div>
+						<div class="card p-0">
+							<img src="img/BBQ/bbq2.jpg" class="card-img-top" alt="BBQ Smoker">
+						</div>
+						<div class="card p-0">
+							<img src="img/BBQ/bbq3.jpg" class="card-img-top" alt="BBQ Smoker">
+						</div>
+						<div class="card p-0">
+							<img src="img/BBQ/bbq6.jpg" class="card-img-top" alt="BBQ Smoker">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<h6>I competed in GA BBQ Sanctioned events from 2009 to 2011. While I don't compete anymore I am still an avid BBQer.</h6>
+					<ul class="list-unstyled pt-2">
+						<li><i class="fab fa-gripfire pr-3"></i>2nd Place Pork Ribs (Patio Division)</li>
+						<li class="pb-2"><i class="fas fa-at pr-3"></i>Smoke On The Water BBQ & Bluegrass Festival 2011</li>
+						<li><i class="fab fa-gripfire pr-3"></i>8th Place Pork Ribs</li>						
+						<li class="pb-2"><i class="fas fa-at pr-3"></i>Hawkinsville BBQ Competition 2011</li class="pb-2">						
+						<li><i class="fab fa-gripfire pr-3"></i>2nd Place Pork Ribs & 2nd Place Pulled Pork</li>						
+						<li class="pb-2"><i class="fas fa-at pr-3"></i>Boss Hog Cook-off 2010</li class="pb-2">
+						<li><i class="fab fa-gripfire pr-3"></i>2nd Place Pork Ribs						
+						<li><i class="fas fa-at pr-3"></i>Boss Hog Cook-off 2009</li>
 					</ul>
 				</div>
 			</div>
@@ -172,7 +317,7 @@
 							<a href="https://www.linkedin.com/in/bryanmcdonaldgt/" target="_blank">
 								<i class=" fab fa-linkedin-in"></i>
 							</a>
-						</li>							
+						</li>
 						<li class="list-inline-item">
 							<a href="https://www.instagram.com/bryanmcdee/" target="_blank">
 								<i class=" fab fa-instagram"></i>
@@ -182,7 +327,7 @@
 							<a href="https://twitter.com/bryanmcdee" target="_blank">
 								<i class=" fab fa-twitter"></i>
 							</a>
-						</li>											
+						</li>
 					</ul>
 				</div>
 				<div class="col-md-4">
