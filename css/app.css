@@ -684,6 +684,16 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #fed136;
 }
 
+#scroll-down-icon {
+  animation: 2s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  15% { transform: skewX(0deg); }
+}
+
 @media (max-width: 576px) {
   #welcome-text {
     padding-left: 100px;
